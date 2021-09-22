@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1529177926897-1d894ca01471?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-position: center center;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-transform: capitalize;
+  /* margin-top: -20rem; */
+  margin-top: -20%;
+  font-weight: normal;
+  /* border-bottom: 2px solid white; */
+}
+
+.count_container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.big_text {
+  font-size: 2em;
+  font-weight: bolder;
+  padding: 2.5rem;
+}
